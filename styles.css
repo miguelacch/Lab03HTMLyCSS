@@ -289,7 +289,7 @@ ul {
 
 /* Botón agregar al carrito */
 .btn-add-cart {
-    background: linear-gradient(to bottom, #ffd814, #f7ca00);
+    background: linear-gradient(to bottom, #1d1e33, #f7ca00);
     border: 1px solid #c9a634;
     border-radius: 20px;
     padding: 10px 20px;
