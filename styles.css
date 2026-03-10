@@ -44,6 +44,8 @@ ul {
 .header-main {
     background-color: #131921;
     padding: 10px 0;
+    font-family: 'Trebuchet MS';
+    background: linear-gradient(rgb(153, 46, 46),  #1d1e33);
 }
 
 .header-main .header-content {
@@ -228,7 +230,6 @@ ul {
 .product-image {
     width: 100%;
     height: 200px;
-    background-color: #f0f0f0;
     border-radius: 4px;
     margin-bottom: 15px;
     display: flex;
@@ -237,7 +238,7 @@ ul {
 }
 
 .product-image::after {
-    content: "📷";
+    content: "";
     font-size: 48px;
     opacity: 0.3;
 }
@@ -288,7 +289,7 @@ ul {
 
 /* Botón agregar al carrito */
 .btn-add-cart {
-    background: linear-gradient(to bottom, #ffd814, #f7ca00);
+    background: linear-gradient(to bottom, #1d1e33, #f7ca00);
     border: 1px solid #c9a634;
     border-radius: 20px;
     padding: 10px 20px;
